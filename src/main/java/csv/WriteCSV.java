@@ -18,7 +18,7 @@ public class WriteCSV {
 
 	public static void main(String[] args) throws CsvDataTypeMismatchException, CsvRequiredFieldEmptyException, IOException {
 		
-		String PATH = "CSVFile.csv";
+		String PATH = "D:\\Eclipse Java Projects\\New-Workspace\\PraticePrograms\\src\\main\\resources\\CSVFile.csv";
 		
 		//Create new file and existing file
 		File file = new File(PATH);

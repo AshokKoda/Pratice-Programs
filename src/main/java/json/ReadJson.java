@@ -11,7 +11,7 @@ public class ReadJson {
 
 	public static void main(String[] args) {
 		
-		String PATH = "User.json";
+		String PATH = "D:\\Eclipse Java Projects\\New-Workspace\\PraticePrograms\\src\\main\\resources\\User.json";
 
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(PATH));

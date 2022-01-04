@@ -27,7 +27,7 @@ public class WriteJson {
 		//System.out.println(myList);
 		
 		//Write JSON
-		String PATH = "User.json";
+		String PATH = "D:\\Eclipse Java Projects\\New-Workspace\\PraticePrograms\\src\\main\\resources\\User.json";
 		
 		try {
 			Writer writer = Files.newBufferedWriter(Paths.get(PATH));

@@ -15,7 +15,7 @@ public class ReadCSV {
 
 	public static void main(String[] args) throws IOException {
 		
-		String PATH = "CSVFile.csv";
+		String PATH = "D:\\Eclipse Java Projects\\New-Workspace\\PraticePrograms\\src\\main\\resources\\CSVFile.csv";
 		
 		Reader reader = Files.newBufferedReader(Paths.get(PATH));
 		CsvToBean<CSVUser> csvToBean = new CsvToBeanBuilder<CSVUser>(reader).withType(CSVUser.class).withIgnoreLeadingWhiteSpace(true).build();
